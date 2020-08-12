@@ -1,12 +1,30 @@
 #title{
     text-align:center;
+    font-family:Helvetica;
+    font-weight:bold;
+    font-size:50px;
+    text-shadow:4px 4px #868676;
 }
 #column {
     float: left;
     width: 33.33%;
+    font-family:Helvetica;
   }
+a{
+  color:inherit;
+}
   #column:after {
     content: "";
     display: table;
     clear: both;
+    font-family:Helvetica;
+  }
+  #price{
+    font-family:helvetica;
+  }
+  *{
+    background-color:#F5F5DC;
+  }
+  #headtitle{
+    text-decoration: underline;
   }
